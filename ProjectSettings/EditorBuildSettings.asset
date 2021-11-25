@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 80597fcd98656464dae57d39e0af9e25
+  - enabled: 1
+    path: Assets/Scenes/CountDown.unity
+    guid: 5d937bb2655695040a50b3a87185462f
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: c6dd802ca3e026247bfab1d88f750b56
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1f4d71b927cab0243a60f91bf9ed4681,
+      type: 2}

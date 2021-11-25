@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3231922089429177996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3231922089429177997}
+  - component: {fileID: 3561799811914997047}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3231922089429177997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231922089429177996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3561799811914997047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231922089429177996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c22370683e52814ab93cf9d1430409d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InGame: {fileID: 0}
+  Pause: {fileID: 0}
+  displayer: {fileID: 7888337256235744547, guid: fa184211342fa384bb1d28ae7e6e628f,
+    type: 3}
+  holder: {fileID: -469820086117663172, guid: af78c6ccf5507f74ca2cd8b3c8fb0cc2, type: 3}
+  ennemiesText: {fileID: 0}
+  scoreText: {fileID: 0}
+  startButton: {fileID: 1538178376398302811, guid: d27af2e9daa363849a384f92bb12fa76,
+    type: 3}
+  proxyEnnemy: {fileID: 4950674438611020636, guid: 715e08346935be849bb60950a13509e1,
+    type: 3}
+  Shield: {fileID: 2491304593491167670, guid: 35c0edfe6681a44448655e0d6b65c9c0, type: 3}
+  bouncer: {fileID: 8512356545918242736, guid: 42277f67d3247314abb0ea698475e74a, type: 3}
+  bouncers: []
+  player: {fileID: 9049027572230817919, guid: ee2298a04f045c9488ea4ae82c776a96, type: 3}
+  ennemy: {fileID: 9184479736490377973, guid: ef43d8562f6a6d142a2cef431858291c, type: 3}
+  shieldactive: 0
+  ennemySpawned: {fileID: 7440356068373140324, guid: c82e24d6945f9434bb79aaa06bc8f1e8,
+    type: 3}
+  flash: {fileID: 0}
